@@ -48,7 +48,7 @@ def add_event(attention_score, num_persons):
 # Close the cursor and connection
     cursor.close()
     try:
-        requests.post("http://localhost:5000/sensor", json={"count": num_persons})
+        requests.post("http://127.0.0.1:5000/sensor", json={"count": num_persons})
     except:
         print('error while posting to sensor')
         pass
