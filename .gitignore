@@ -1,0 +1,5 @@
+venv
+ad-view/node_modules
+ad-view/.svelte-kit
+.idea
+*.lock

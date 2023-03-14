@@ -1,0 +1,9 @@
+facenet-pytorch
+torch
+numpy
+mmcv
+opencv-python
+flask_sock
+flask
+psycopg2
+deepface
